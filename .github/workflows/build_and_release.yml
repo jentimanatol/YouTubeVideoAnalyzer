@@ -34,11 +34,11 @@ jobs:
 
       - name: Build executable with PyInstaller
         run: |
-          pyinstaller --noconfirm --onefile --windowed --icon=app_icon.ico --name PowerPointGenerator PowerPointGenerator.py  --hidden-import=pyautogui 
+          pyinstaller --noconfirm --onefile --windowed --icon=app_icon.ico --name YouTubeVideoAnalyzer YouTubeVideoAnalyzer.py  --hidden-import=pyautogui 
 
       - name: Upload Release 
         uses: softprops/action-gh-release@v1
         with:
-          files: dist/PowerPointGenerator.exe
+          files: dist/YouTubeVideoAnalyzer.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
