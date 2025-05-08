@@ -54,6 +54,7 @@ class YouTubeTranscriptApp:
         #if preferabule inital url on the aaa add the line bellow 
 
         self.url_entry.insert(0, "https://youtu.be/7yDmGnA8Hw0?si=3WPOV1bxE5feqnPq") 
+        #https://youtu.be/7yDmGnA8Hw0?si=3WPOV1bxE5feqnPq
 
 
         #####################################################################
