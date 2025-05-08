@@ -1,36 +1,33 @@
-name: Build Release
+name: Build and Release EXE
 
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - 'v*.*'
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    runs-on: windows-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: |
-          pip install --upgrade pip
-          pip install youtube-transcript-api
+          python -m pip install --upgrade pip
+          pip install pyinstaller youtube-transcript-api
 
-      - name: Package Application with PyInstaller
+      - name: Build executable with PyInstaller
         run: |
-          pip install pyinstaller
-          pyinstaller --name "YouTubeTranscriptAnalyzer" --onefile your_script_name.py
+          pyinstaller --noconfirm --onefile --windowed --name YouTubeTranscriptAnalyzer YouTubeTranscriptAnalyzer.py
 
-      - name: Upload Release Asset
+      - name: Upload Release 
         uses: softprops/action-gh-release@v1
         with:
-          files: dist/YouTubeTranscriptAnalyzer
+          files: dist/YouTubeTranscriptAnalyzer.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
