@@ -44,6 +44,26 @@ class YouTubeTranscriptApp:
 
         ttk.Label(frm, text="YouTube Video URL:").pack(anchor=tk.W)
         self.url_entry = ttk.Entry(frm, width=80)
+
+
+
+
+
+
+
+        #if preferabule inital url on the aaa add the line bellow 
+
+        self.url_entry.insert(0, "https://youtu.be/7yDmGnA8Hw0?si=3WPOV1bxE5feqnPq") 
+
+
+        #####################################################################
+
+
+
+
+
+
+
         self.url_entry.pack(fill=tk.X, pady=5)
         self.url_entry.focus()
 

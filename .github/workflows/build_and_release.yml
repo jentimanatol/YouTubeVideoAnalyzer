@@ -19,8 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyinstaller
-          pip install youtube-transcript-api
+          pip install pyinstaller pyautogui matplotlib scipy seaborn python-pptx pytube youtube-transcript-api pillow
 
       - name: Build executable with PyInstaller
         run: |
