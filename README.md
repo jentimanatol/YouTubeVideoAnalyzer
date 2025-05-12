@@ -85,9 +85,12 @@ Built-in error handling ensures smoother operation across a variety of video typ
 
 ## 🖼️ App Preview
 
-![Main UI](screenshots/main_ui.png)  
-![Metadata Extracted](screenshots/video_info.png)  
-![Download Options](screenshots/download_options.png)
+![Main UI](screenshots/Screenshot1.png)  
+![Main UI](screenshots/Screenshot2.png)  
+![Main UI](screenshots/Screenshot3.png)  
+
+
+
 
 *A clean interface designed for practical video research and metadata analysis.*
 
