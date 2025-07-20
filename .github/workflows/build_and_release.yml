@@ -23,11 +23,11 @@ jobs:
 
       - name: Build executable with PyInstaller
         run: |
-          pyinstaller --noconfirm --onefile --windowed --icon=app_icon.ico --name YouTubeVideoAnalyzer YouTubeVideoAnalyzer.py
+          pyinstaller --noconfirm --onefile --windowed --icon=app_icon.ico --name YouTubeTranscriptSummary YouTubeTranscriptSummary.py
 
       - name: Upload Release 
         uses: softprops/action-gh-release@v1
         with:
-          files: dist/YouTubeVideoAnalyzer.exe
+          files: dist/YouTubeTranscriptSummary.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
