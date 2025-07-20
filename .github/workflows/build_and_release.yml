@@ -8,7 +8,6 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-
     steps:
       - uses: actions/checkout@v3
 
@@ -24,9 +23,9 @@ jobs:
 
       - name: Build executable with PyInstaller
         run: |
-          pyinstaller --noconfirm --onefile --windowed --icon="screenshots\\app_icon_256×256.ico" --name YouTubeTranscriptSummary YouTubeTranscriptSummary.py
+          pyinstaller --noconfirm --onefile --windowed --icon=app_icon.ico --name YouTubeTranscriptSummary YouTubeTranscriptSummary.py
 
-      - name: Upload Release
+      - name: Upload Release 
         uses: softprops/action-gh-release@v1
         with:
           files: dist/YouTubeTranscriptSummary.exe
