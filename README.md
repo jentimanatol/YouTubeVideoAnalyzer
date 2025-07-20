@@ -1,85 +1,75 @@
-# 📽️ **YouTube Video Analyzer by AJ**
 
-![Release](https://img.shields.io/github/v/release/jentimanatol/YouTubeVideoAnalyzer?label=Latest%20Release&style=for-the-badge)  
+
+
+![Release](https://img.shields.io/github/v/release/jentimanatol/YouTubeTranscriptSummary?label=Latest%20Release&style=for-the-badge)  
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=for-the-badge)  
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
-
-> ⚡ Analyze, extract, and download YouTube video metadata with a clean, easy-to-use Python GUI — perfect for research, content review, or media archiving.
 
 ---
 
 ## 🧾 About This Project
 
-**YouTube Video Analyzer** is a streamlined desktop application that lets users extract in-depth video metadata from YouTube links, including titles, views, channels, publish dates, and even download options.
+This project showcases:
 
-This project demonstrates:
-
-* YouTube metadata extraction using `pytube`  
-* GUI development using `tkinter`  
-* Modular, user-friendly Python design  
-* Real-world problem solving via digital tools  
+- YouTube transcript and metadata extraction using `pytube`  
+- GUI development with `tkinter`  
+- Modular, beginner-friendly Python structure  
+- A real-world solution for video analysis and automation
 
 ---
 
-## 🎓 Project Background: BHCC Academic Contribution
+## 🎓 Academic Context: BHCC Contribution
 
-This project was developed as part of **PROJECT 5: MOBILE APP DEVELOPMENT** under the **CIT-113-01 - Info Tech Problem Solving** course at **Bunker Hill Community College (BHCC)** during the Spring 2025 semester. The course emphasizes:
+This project was developed as part of **PROJECT 5: MOBILE APP DEVELOPMENT**  
+for the course **CIT-113-01: Info Tech Problem Solving** at **Bunker Hill Community College (BHCC)** during the Spring 2025 semester.
 
-- Project-based learning (PBL) with real-world application  
-- Ethical programming and responsible digital citizenship  
-- Critical thinking and independent creativity  
-- Blended instruction: online learning + live team collaboration  
+The course emphasizes:
 
-> 💬 *"The goal isn’t just to code — it's to build tools that help people make sense of their digital world."*
+- Project-based learning (PBL) with real-world relevance  
+- Ethical and responsible software development  
+- Creative problem solving and independent thinking  
+- A blended approach: online learning + live collaboration  
 
-This project aligns with core learning outcomes:
+> 💬 *"The goal isn’t just to code — it’s to build tools that help people make sense of their digital world."*
 
-- Apply Python to analyze and automate digital tasks  
-- Create GUI-based applications that solve practical problems  
-- Use APIs and web protocols responsibly  
-- Reflect on the societal impact of digital tools  
+This project aligns with course learning outcomes:
+
+- Apply Python to solve practical digital tasks  
+- Build interactive GUI applications  
+- Use APIs and protocols responsibly  
+- Reflect critically on the role of technology in society
 
 ---
 
 ## 🔽 Download
 
-📦 Get the latest executable:  
-➡️ **[Download YouTube Video Analyzer (.exe)](https://github.com/jentimanatol/YouTubeVideoAnalyzer/releases/latest)**
+📦 **Get the latest executable:**  
+👉 [Download YouTubeTranscriptSummary (.exe)](https://github.com/jentimanatol/YouTubeTranscriptSummary/releases/latest)
 
-📁 View or fork the source:  
-🔍 **[Browse all releases](https://github.com/jentimanatol/YouTubeVideoAnalyzer/releases)**
-
----
-
-## 🚀 Features Overview
-
-* 🔍 **Analyze YouTube video metadata**
-* 🧠 **Extract title, views, likes, publish date, duration, and description**
-* 💾 **Download video in MP4 format or audio in MP3**
-* 🧰 **Handles common API issues with built-in error catching**
-* 🖼️ **Simple, accessible GUI for all skill levels**
+📁 **Browse or fork the source:**  
+🔍 [Explore all releases](https://github.com/jentimanatol/YouTubeTranscriptSummary/releases)
 
 ---
 
 ## 🧑‍🏫 Who Should Use This?
 
-* 🎓 **Students** analyzing YouTube content for class  
-* 🎥 **Content creators** studying performance metrics  
-* 🧑‍💼 **Researchers or journalists** collecting video info  
-* 🗃️ **Archivists** cataloging metadata from channels  
+- 🎓 **Students** analyzing YouTube videos for assignments or presentations  
+- 🎥 **Content creators** reviewing video metadata and performance  
+- 🧑‍💼 **Researchers or journalists** retrieving and archiving video info  
+- 🗃️ **Archivists** organizing YouTube content efficiently
 
-Whether you’re studying trends, archiving content, or analyzing performance — this tool saves time and boosts accuracy.
+Whether you're studying trends, managing digital collections, or analyzing content performance — this app helps you save time and increase accuracy.
 
 ---
 
-## 🛠️ How It Works
+## ⚙️ How It Works
 
 1. **Paste a YouTube link into the app**  
-2. **Click "Analyze"** to retrieve video metadata  
-3. **Optionally download** the video or audio file  
-4. ✅ Review metadata or archive for future use  
+2. **Click “Analyze”** to fetch metadata and transcript  
+3. **Optionally download** the video or audio  
+4. ✅ Review, save, or export the results
 
-Built-in error handling ensures smoother operation across a variety of video types and formats.
+Robust error handling ensures reliable results across different video types and formats.
 
 ---
 
@@ -87,50 +77,48 @@ Built-in error handling ensures smoother operation across a variety of video typ
 
 ![Main UI](screenshots/Screenshot1.png)  
 ![Main UI](screenshots/Screenshot2.png)  
-![Main UI](screenshots/Screenshot3.png)  
 
-
-
-
-*A clean interface designed for practical video research and metadata analysis.*
+*A clean and intuitive interface for video research and transcript analysis.*
 
 ---
 
 ## 💡 Why I Built This
 
-YouTube is a huge educational and cultural archive — but pulling structured information from it can be tedious. I built this app to make metadata collection simple, fast, and user-friendly for anyone doing research, teaching, or organizing content.
+YouTube is a vast archive of educational, cultural, and social content — but extracting structured data from it can be time-consuming.
 
-It reflects my interest in:
+This app was built to simplify metadata and transcript collection for:
 
-* Digital automation  
-* Data analysis & media studies  
-* Ethical access to open content  
-* UI simplicity with real utility  
+- Academic research  
+- Content organization  
+- Digital media analysis  
+
+It reflects my passion for:
+
+- Automation and digital efficiency  
+- Media and data literacy  
+- Accessible open-source tools  
+- Clean, practical UI design
 
 ---
 
 ## 🛠 Tech Stack
 
-* `Python 3.11+`  
-* `pytube` (for video data and download)  
-* `tkinter` (for GUI)  
-* `os`, `threading`, `datetime` (core modules)  
-* `matplotlib` (optional visual analytics)
+- `Python 3.11+`  
+- `pytube` — for video/transcript extraction  
+- `tkinter` — for the graphical user interface  
+- `os`, `threading`, `datetime` — core functionality  
+- `matplotlib` — optional for visual data plots
 
-Optional:  
-* `pyinstaller` — for `.exe` packaging  
-* `pydub` — for enhanced audio conversion
+Optional tools:
+
+- `pyinstaller` — for building `.exe` distributions  
+- `pydub` — for advanced audio conversion
 
 ---
 
 ## 📃 License & Credits
 
-🆓 **MIT License** — use, modify, and distribute freely.
+🆓 **MIT License** — use, modify, and share freely.
 
-👤 Created by **Anatolie Jentimir**  
-🎓 Developed at **Bunker Hill Community College**  
-📅 Spring 2025 – **CIT-113-01: Info Tech Problem Solving**  
-👨‍🏫 Instructor: Professor Jaime Mahoney
-
-> *If this app helps you simplify your workflow or enhances your content analysis — I’d love to hear from you. Contributions welcome!*
-
+👤 Developed by **Anatolie Jentimir**  
+🎓 Created for **Bunker Hill Community College** coursework

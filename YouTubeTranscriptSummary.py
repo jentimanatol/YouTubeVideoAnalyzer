@@ -34,7 +34,7 @@ def summarize_text(text, num_sentences=5):
 class YouTubeTranscriptApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("YouTube Transcript Analyzer By AJ")
+        self.root.title("YouTubeTranscriptSummary")
         self.root.geometry("800x600")
         self.create_widgets()
 
